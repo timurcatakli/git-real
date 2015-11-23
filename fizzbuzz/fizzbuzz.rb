@@ -7,12 +7,12 @@
 1.upto(100) {
 	|i| 
 	if i % 	3 == 0 && i % 5 == 0
-		print "FizzBuzz"
+		print "FizzBuzz "
 	elsif i % 3 == 0
-		print "Fizz"
+		print "Fizz "
 	elsif i % 5 == 0
-		print "Buzz"
+		print "Buzz "
 	else
-		print i
+		print i.to_s + " "
 	end	
 }
